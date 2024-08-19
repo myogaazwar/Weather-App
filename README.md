@@ -14,3 +14,6 @@ Untuk menggunakan API, kamu memerlukan API Key. Ikuti langkah-langkah di bawah i
 1. **Daftar** di [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) dan dapatkan API Key.
 2. Buat file apiKey.js atau masukkan API Key yang sudah didapatkan pada variable *apiKey*;
 3. Selesai 🙏 
+
+
+![image](https://github.com/user-attachments/assets/2190a986-303f-41d2-af94-043371898246)
