@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <form class="weatherForm">
+        <input class="cityInput" type="text" placeholder="Search" />
+        <button type="submit"><i class="bi bi-search icon"></i></button>
+      </form>
+
+      <div id="cardWeather">
+        <!-- <h1 class="weatherEmoji">☀️</h1>
+        <h1 class="tempDisplay">22 C</h1>
+        <h1 class="cityDisplay">Bekasi</h1> -->
+        <!-- <p class="weatherDesc">Awan Pecah</p> -->
+
+        <div id="detailCard">
+          <div class="container_details" id="container_humidity">
+            <!-- <p class="emoji_humidity">🌫</p> -->
+
+            <div class="container_items" id="itemHumidity">
+              <!-- <p class="humidityDisplay">64%</p>
+              <p class="text_detail">Humidity</p> -->
+            </div>
+          </div>
+
+          <div class="container_details" id="container_wind">
+            <!-- <p class="emoji_wind">💨</p> -->
+            <div class="container_items" id="itemWind">
+              <!-- <p class="windDisplay">18 km/h</p>
+              <p class="text_detail">Wind Speed</p> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <p class="errorDisplay">Tidak Bisa</p> -->
+      </div>
+    </main>
+  </body>
+
+  <script type="module" src="index.js"></script>
+</html>
