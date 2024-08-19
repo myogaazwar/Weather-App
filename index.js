@@ -79,7 +79,7 @@ const displayWeatherInfo = (data) => {
   weatherDesc.classList.add('weatherDesc');
 
   weatherEmoji.innerText = getEmojiWeather(id);
-  tempDisplay.innerText = `${(temp - 273.15).toFixed(1)}`;
+  tempDisplay.innerText = `${(temp - 273.15).toFixed(1)}°C`;
   cityDisplay.innerText = name;
   weatherDesc.innerText = description;
 
